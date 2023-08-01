@@ -27,7 +27,7 @@ const char* senderEmail = "your-email@gmail.com";
 const char* recipientEmail = "recipient-email@gmail.com";
 
 // Replace with your MySQL database details
-IPAddress serverIP(192, 168, 1, 100);  // MySQL server IP address
+IPAddress serverIP(192.168.1.100);  // MySQL server IP address
 int serverPort = 3306;                 // MySQL server port
 const char* dbUser = "username";       // MySQL username
 const char* dbPassword = "password";   // MySQL password
